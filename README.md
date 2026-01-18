@@ -2,7 +2,7 @@
 
 A Python utility that fetches vulnerability data from Microsoft Defender for Endpoint (MDE) Threat & Vulnerability Management (TVM) APIs and streams it to Splunk HEC for security monitoring, dashboards, and metrics.
 
-**Author:** Mohammed Ali
+**Author:**  trickyfalcon
 **License:** MIT
 
 ---
