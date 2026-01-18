@@ -1,0 +1,20 @@
+# Exclude old directory
+Old/
+
+# macOS
+.DS_Store
+
+# Environment and credentials
+.env
+.env.*
+*.env
+
+# Certificates and keys
+*.crt
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Logs
+*.log
