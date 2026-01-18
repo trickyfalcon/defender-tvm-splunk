@@ -25,11 +25,9 @@ A Python utility that fetches vulnerability data from Microsoft Defender for End
 ## Features
 
 - **Two Export Modes**: Separate scripts for bulk (full snapshot) and delta (changes only)
-- **Memory Optimized**: Streaming architecture uses ~500MB regardless of dataset size
 - **Catalog Enrichment**: Enriches data with published dates, EPSS scores, descriptions, exploit details
 - **Splunk HEC Integration**: Streams events directly to Splunk HTTP Event Collector
 - **Clear Sourcetypes**: `defender:tvm:bulk` and `defender:tvm:delta` for easy dashboard building
-- **Certificate Authentication**: Secure 20-year certificate-based auth (recommended)
 - **Rate Limit Handling**: Built-in retry logic with exponential backoff for 429/5xx responses
 - **Fault Tolerant**: `--continue-on-error` flag allows partial runs to succeed
 
